@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Desing Frameworks</title>
+</head>
+<body>
+    <main id="main-doc">
+        <!-- DJANGO -->
+        <section class="main-section" id="Django">
+            <header>Django</header>
+            <p>Django es un framework de desarrollo web de código abierto, 
+                escrito en Python, que respeta el patrón de diseño conocido como modelo-vista-controlador (MVC).</p>
+            <p>Fue desarrollado originalmente para gestionar páginas web orientadas a noticias de la World Company 
+                de Lawrence, Kansas, y fue liberada al público bajo una licencia BSD en julio de 2005; el framework 
+                fue nombrado en alusión al guitarrista de jazz gitano Django Reinhardt.</p>
+            <code>
+                Hello {{ firstname }}, how are you?
+            </code>
+            <ul>
+                <li>Mapeador objeto-relacional</li>
+                <li>API de base de datos robusta</li>
+                <li>Sistema incorporado de "vistas genéricas"</li>
+            </ul>
+        </section>
+        <!-- FLASK -->
+        <section class="main-section" id="Flask">
+            <header>Flask</header>
+            <p>Flask es un framework minimalista escrito en Python que permite crear aplicaciones web rápidamente y 
+                con un mínimo número de líneas de código.</p>
+            <p>Está basado en la especificación WSGI de Werkzeug y el motor de templates Jinja2 y tiene una licencia BSD.</p>
+            <code>
+                def holamundo():<br>
+                &nbsp&nbsp&nbsp return "¡Hola Mundo!"
+            </code>
+            <ul>
+                <li>Proporciona una estructura del proyecto</li>
+                <li>Facilita la colaboración</li>
+                <li>Es fácil encontrar bibliotecas adaptadas al Framework</li>
+            </ul>
+        </section>
+        <!-- ANGULAR -->
+        <section class="main-section" id="Angular">
+            <header>Angular</header>
+            <p>Angular (comúnmente llamado Angular 2+ o Angular 2) es un framework para aplicaciones web desarrollado en 
+                TypeScript, de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web 
+                de una sola página.</p>
+            <p>Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC),
+                en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.</p>
+            <code>
+                npm install -g @angular/cli
+            </code>
+            <ul>
+                <li>Velocidad y rendimiento</li>
+                <li>Productividad</li>
+                <li>Historia completa del desarrollo</li>
+            </ul>
+        </section>
+        <!-- LARAVEL -->
+        <section class="main-section" id="Laravel">
+            <header>Laravel</header>
+            <p>Laravel es un framework de código abierto para desarrollar aplicaciones y servicios web con PHP 5, PHP 7 y 
+                PHP 8. Su filosofía es desarrollar código PHP de forma elegante y simple, evitando el "código espagueti".</p>
+            <p>Fue creado en 2011 y tiene una gran influencia de frameworks como Ruby on Rails, Sinatra y ASP.NET MVC.</p>
+            <code>
+                class Libro extends Model { <br><br> 
+
+                    //defiendo el nombre de la tabla con la info de los libros<br>  
+                    &nbsp&nbsp&nbsp protected $table = 'tb_libros'; <br> 
+                    &nbsp&nbsp&nbsp}
+            </code>
+            <ul>
+                <li>Sistema de enrutamiento, también RESTful</li>
+                <li>Blade, Motor de plantillas</li>
+                <li>Peticiones Fluent</li>
+            </ul>
+        </section>
+        <!-- REACT -->
+        <section class="main-section" id="React">
+            <header>React</header>
+            <p>React (también llamada React.js o ReactJS) es una librería Javascript de código abierto diseñada para crear 
+                interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página.</p>
+            <p>Es mantenido por Facebook y la comunidad de software libre. En el proyecto hay más de mil desarrolladores libres.</p>
+            <code>
+                const [todos, setTodos] = useState([{ text: 'Learn Hooks' }]);
+            </code>
+            <ul>
+                <li>Virtual DOM</li>
+                <li>Las propiedades (también conocidas como 'props')</li>
+                <li>Influenciado por XHP de HTML</li>
+            </ul>
+        </section>
+    </main>
+        
+    <nav id="navbar">
+        <header>Frameworks para desarrollo web</header>
+        <a href="#Django" class="nav-link">Django</a>
+        <a href="#Flask" class="nav-link">Flask</a>
+        <a href="#Angular" class="nav-link">Angular</a>
+        <a href="#Laravel" class="nav-link">Laravel</a>
+        <a href="#React" class="nav-link">React</a>
+    </nav>
+    
+</body>
+</html>
