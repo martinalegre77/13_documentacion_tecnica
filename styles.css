@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 29%;
+    height: 200vh;
+    margin-top: 0;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    border-right: 5px rgb(88, 88, 88) solid; 
+}
+
+#navbar header {
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 15px;
+    padding-top: 5px;
+}
+
+a {
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+    font-size: 1rem;
+    border-top: 3px rgb(88, 88, 88) solid;
+    margin: 5px 0 5px 0;
+    padding: 10px 0 10px 20px ;
+}
+
+.main-section {
+    padding-top: 15px;
+}
+
+#main-doc {
+    width: 70%;
+    float: right;
+    padding: 3px;
+    /* border-left: 5px rgb(88, 88, 88) solid; */
+    padding-left: 4px;
+}
+
+#main-doc header {
+    font-size: 1.7rem;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+p, code, ul {
+    color: rgb(88, 88, 88);
+    margin-left: 20px;
+}
+
+@media (min-width: 769px) and (max-width: 1199px){
+    nav {
+        width: 100%;
+        margin-top: 5px;
+        float:initial;
+        display: flex;
+        flex-direction: row;
+    }
+    .main-doc {
+        width: 100%;
+        float: unset;
+        padding: 3px;
+    }
+}   
